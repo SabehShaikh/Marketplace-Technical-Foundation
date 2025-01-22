@@ -1,48 +1,51 @@
-# Marketplace Technical Foundation - Furniro
+# 🛍️ Furniro Marketplace - Technical Foundation Journey
 
-## 1. System Architecture Overview
+This repository documents the six-day journey of developing and deploying the **Furniro Marketplace**, a project aimed at creating a seamless e-commerce platform. Below is a breakdown of each day's progress:
 
-### Front-End:
-- **Responsive design** to ensure compatibility with mobile, tablet, and desktop screens.
-- Developed using **modern web technologies**.
-- **User-friendly interface** across all pages.
+---
 
-### Essential Pages:
-1. **Home Page**: Central hub showcasing featured furniture, new arrivals, etc.
-2. **Shop**: Displays all available furniture categories.
-3. **Single Product Page**: Detailed view of individual furniture pieces, including descriptions, sizes, and customization options.
-4. **Cart**: User-friendly cart page to review items, adjust quantities.
-5. **Checkout**: A secure checkout process for reviewing the order and completing payment.
-6. **Login/Signup**: User authentication pages for customers to register and manage their accounts.
-7. **Contact Page**: Form for customers to get in touch with inquiries, support, or feedback.
-8. **Blog**: A section for blog posts related to furniture trends.
-9. **Profile Page**: A personalized dashboard for customers.
-10. **Product Comparison**: Enables customers to compare different furniture pieces.
-11. **Order Tracking**: Allows customers to track the status of their orders and view shipment updates.
+🧠 **Day 1 - Ideation:**  
+We brainstormed ideas and defined the core concept for Furniro, focusing on creating a marketplace tailored for modern consumers. Key goals included simplicity, responsiveness, and user-friendly design.
 
-### Sanity CMS:
-Using **Sanity CMS** to manage product data, customer details, and order records. Sanity acts as the database for our marketplace.
+📝 **Day 2 - Technical Documentation:**  
+Mapped out the system architecture, specifying technologies like **Next.js**, **Sanity CMS**, and third-party APIs.
 
-Sanity CMS will be used for managing:
-- **Products**: Categories, prices, stocks, and customizations.
-- **Blogs**: Title, content, images, and tags for articles.
-- **Customer Information**: Storing user details, saved addresses, and order history.
-- **Orders**: Providing real-time updates on order status.
+⚡ **Day 3 - API Integration:**  
+Integrated external APIs and connected the backend (Sanity CMS) to dynamically display product information on the website. Established seamless communication between the frontend and backend.
 
-### Third-Party API Integrations:
-Integrate APIs for shipment tracking, payment gateways, and other required backend services.
+🛠️ **Day 4 - Key Features and Components:**  
+Developed core features, including:
+- Dynamic product comparison.
+- Routing and detailed product pages.
+- A fully functional checkout process.
+- Order history and an analytics page for user insights.
 
-APIs will be used for:
-- **Payment Solutions**: Secure gateways for processing transactions.
-- **Logistics**: Integration with delivery partners for efficient shipping and tracking.
-- **Authentication**: Secure sign-in/sign-up methods.
-- **Tracking**: Real-time order and delivery tracking systems.
+🧪 **Day 5 - Performance Testing:**  
+Conducted thorough testing to ensure the marketplace operates efficiently:
+- **Functional Testing**: Verified workflows like product listings and cart operations.
+- **Performance Testing**: Used **Lighthouse** to optimize speed and responsiveness.
+- **Security Testing**: Validated secure handling of sensitive data and implemented HTTPS.
 
-## 2. System Architecture Diagram
-![System Architecture](./Documentation/images/system-architecture.png)
+🌐 **Day 6 - Deployment to Vercel:**  
+Deployed the application to **Vercel**, configured environment variables securely, and ensured a smooth staging and production-ready environment. Finalized documentation and test reports.
 
-## 3. Workflow Diagram
-![Workflow Diagram](./Documentation/images/workflow-diagram.png)
+---
 
-## 4. API Endpoints
-![API Endpoints](./Documentation/images/api-endpoints.png)
+## 🔗 Project Links:
+- **Production URL**: [Furniro Marketplace](https://furniro-ecommerce-sabeh.vercel.app/)  
+- **Documentation Repository**: [Marketplace-Technical-Foundation](https://github.com/SabehShaikh/Marketplace-Technical-Foundation)  
+- **Source Code Repository**: [Furniro E-commerce](https://github.com/SabehShaikh/furniro-ecommerce)
+
+---
+
+## 📂 Repository Structure:
+- `documents/`: Contains all project documents from **Day 1 to Day 6**.
+- `README.md`: This summary file.
+- `test-reports/`: Includes test case reports (CSV) and performance testing screenshots.
+
+---
+
+## 🙌 Acknowledgments:
+A huge thank you to my mentors and peers for their guidance and support throughout this project. This journey has been an incredible learning experience!
+
+---
